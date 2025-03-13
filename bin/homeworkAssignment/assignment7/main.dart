@@ -12,6 +12,6 @@ extension StringExtension on String {
 
 void main() {
   print('hello world'.toTitleCase());
-  print('goodbye cruel world'.toTitleCase());
-  print('the quick brown fox'.toTitleCase());
+  print('i am very happy'.toTitleCase());
+  print('great job shakib'.toTitleCase());
 }

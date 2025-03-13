@@ -9,7 +9,6 @@ void main() {
   Point p1 = Point(3, 4);
   Point p2 = Point(1, 2);
 
-  Point result = p1 + p2; // Uses the overloaded + operator
-
-  print(result); // Output: Point(4.0, 6.0)
+  Point result = p1 + p2;
+  print(result);
 }
