@@ -1,4 +1,21 @@
-// Assignment 10: Object Equality and HashCode
-// Create a class Person with properties name and age.
-// Override the == operator and hashCode getter to compare Person objects based on their name and age.
-// Test the equality and hash code by creating two Person objects with the same name and age and verifying that they are considered equal.
+// Bonus Assignment: Generics with Constraints
+// Create a generic class Region<T extends Shape> that stores a list of shapes and calculates the total area of all shapes in the region.
+// Test the class by creating a Region with a mix of Circle and Rectangle objects and printing the total area.
+//
+
+
+import 'region.dart';
+import 'shape.dart';
+import 'circle.dart';
+import 'rectangle.dart';
+
+void main() {
+  Region<Shape> region = Region();
+
+  region.add(Circle(5));
+  region.add(Rectangle(3, 4));
+  region.add(Circle(2));
+
+  print('Total area: ${region.totalArea}');
+}
+
