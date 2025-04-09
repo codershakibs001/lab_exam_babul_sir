@@ -7,4 +7,9 @@ import 'adder.dart';
 void main() {
   Adder adder = Adder();
   print(adder(3, 5));
+  print(adder(3, 5));
+  print(adder(3, 5));
+  print(adder(3, 5));
+  print(adder(3, 5));
+  print(adder(3, 5));
 }
