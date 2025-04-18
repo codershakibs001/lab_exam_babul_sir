@@ -12,4 +12,5 @@ void main() {
   print(adder(3, 5));
   print(adder(3, 5));
   print(adder(3, 5));
+  print(adder(3, 5));
 }
